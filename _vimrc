@@ -177,11 +177,8 @@
     execute expand(source_vim_config).'_config_display.vim'
     execute expand(source_vim_config).'_config_folding.vim'
     execute expand(source_vim_config).'_config_search.vim'
+    execute expand(source_vim_config).'_config_statusline.vim'
     execute expand(source_vim_config).'_config_whitespace.vim'
-
-    execute expand(source_vim_config).'_status_keys.vim'
-    execute expand(source_vim_config).'_status_line.vim'
-    execute expand(source_vim_config).'_syntax_js.vim'
 
     execute expand(source_vim_config).'_keys_bookmarks.vim'
     execute expand(source_vim_config).'_keys_config.vim'
@@ -190,6 +187,9 @@
     execute expand(source_vim_config).'_keys_delete.vim'
     execute expand(source_vim_config).'_keys_indent.vim'
     execute expand(source_vim_config).'_keys_search.vim'
+    execute expand(source_vim_config).'_keys_statusline.vim'
+
+    execute expand(source_vim_config).'_syntax_js.vim'
 
   "Did you know ... Vim has a pseudo built-in ASCII Table!
   "http://www.vim.org/scripts/script.php?script_id=616
