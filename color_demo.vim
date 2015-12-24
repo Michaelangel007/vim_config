@@ -1,4 +1,4 @@
-"To run, open this file in Vim, and then type:
+"To run, open this file in console Vim (non-GUI), and then type:
 "    :so %
 "
 "Reference:
