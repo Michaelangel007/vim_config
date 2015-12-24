@@ -1,4 +1,9 @@
-" http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
+"To run, open this file in Vim, and then type:
+"    :so %
+"
+"Reference:
+"  http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
+
 let num = 255
 while num >= 0
     exec 'hi col_'.num.' ctermbg='.num.' ctermfg=white'
