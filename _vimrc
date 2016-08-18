@@ -42,6 +42,7 @@
 "  inoremap <C-S-d> Ctrl-Shift-D
 
 "Version history
+  "2.61 -- Fix Console Linebreak
   "2.60 -- Change GUI Linebreak from $ to Enter symbol U+21b2
   "2.59 -- Commit to git
   "2.58 -- removed / prefix from config files so 'gf' works on them

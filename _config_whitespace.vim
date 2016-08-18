@@ -52,7 +52,7 @@
   if has("gui_running")
     " already set with linebreaks
   else
-    set listchars=tab:>-,trail:.,nbsp:%:eol:$
+    set listchars=tab:>-,trail:.,nbsp:%,eol:$
   endif
 
   "http://www.unix.com/unix-dummies-questions-answers/156283-problem-map-vim-cursor-moving-insertmode.html
