@@ -42,6 +42,7 @@
 "  inoremap <C-S-d> Ctrl-Shift-D
 
 "Version history
+  "2.62 -- Added alternate GUI listchars
   "2.61 -- Fix Console Linebreak
   "2.60 -- Change GUI Linebreak from $ to Enter symbol U+21b2
   "2.59 -- Commit to git
