@@ -1,6 +1,10 @@
 "Vim config
 "Michael Pohoreski
 
+"Bash setup:
+"    export EDITOR=gvim
+"    function vdiff() { ${EDITOR} -g -d -S ~/.vim/_vimrc -S ~/.vim/cmp.vim "$@" & }
+"   
 "To debug .vimrc / _vimrc
 "  Inside vim source/script file:
 "    echo "Debug Text..."
@@ -51,6 +55,7 @@
 "  inoremap <C-S-d> Ctrl-Shift-D
 
 "Version history
+  "2.64 -- Bash setup
   "2.63 -- Turn off font smoothing OSX command line
   "2.62 -- Added alternate GUI listchars
   "2.61 -- Fix Console Linebreak
