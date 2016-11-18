@@ -86,7 +86,7 @@
         "OSX 10.8 use font size 8
         set guifont=Program5x7b\:h8
 
-        "OSX 10.8 use font size 16
+        "OSX 10.11 use font size 16
         set guifont=Program5x7b\:h16
       endif
        "set guifont=Lucida_Console:h8:cDEFAULT
