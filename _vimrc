@@ -8,15 +8,24 @@
 "    vim -u NONE -D -S .vimrc
 "To re-read this script file into [g]Vim:
 "  :source %
+"
 "On OSX
 "   ln -s ~/.vim/_vimrc ~/.vim/vimrc
-"   Also:   System Preferences, General,
+"
+"   To turn off anti-aliasing / LCD subpixel font blurriness:
+"      System Preferences, General,
 "      [ ] Use LCD font smoothing when available
-"      Turn off text smoothing for font sizes 8 and smaller
+"   Which will apparently turn off text smoothing for font sizes 8 and smaller
+"
+"   To keep font smoothing ON for ALL applications, but
+"   to turn OFF font smoothing ONLY for MacVim then
+"   Copy & Paste into Terminal:
+"      defaults write org.vim.MacVim AppleFontSmoothing -int 0      
+"
 "or
 "    ~/.gvimrc
 "      source _vimrclet VIM_COLORS=$HOME."/.vim/_colors.vim"
-
+"
 " TODO!! Must check if overwriting work _vimrc --- Shift-S V
 
 "Vim fixes:
@@ -42,6 +51,7 @@
 "  inoremap <C-S-d> Ctrl-Shift-D
 
 "Version history
+  "2.63 -- Turn off font smoothing OSX command line
   "2.62 -- Added alternate GUI listchars
   "2.61 -- Fix Console Linebreak
   "2.60 -- Change GUI Linebreak from $ to Enter symbol U+21b2
